@@ -5,7 +5,7 @@
 }
 
 :root{
-
+    --logo-color: white;
     --main-page-color: #FFFFFF;
     --second-page-color: #F5F4FA;
     --accent-page-color: #2F303A;
@@ -28,7 +28,7 @@
 
 .logo{
     text-decoration: none;
-    color: var(--accent-text-color);
+    color: var(--title-text-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -37,9 +37,15 @@
     color: #000;
 }
 
-.logo-web {
-    color: var(--second-page-color);
+.logo-span {
+    color: var(--accent-text-color);
   }
+
+  .footer-studio {
+color: var(--logo-color);
+  }
+
+  /*Logo End*/
 
 /*Naviagation*/
 
@@ -64,14 +70,117 @@
 .head-phone-link {
     color: var(--main-text-color);
 }
+
+/*Navigation End*/
+
+/*Header End*/
+
+
+
+
 /*Hero*/
 
-/*Contacts*/
+/*Main Description*/
+
+.hero-section {
+    text-align: center;
+    background-color: var(--accent-page-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-page-color);
+  }
+
+  .button-link {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    color: var(--main-page-color);
+    background-color: var(--accent-text-color);
+  }
+
+  /*The End Hero*/
+  /*The End Main Description*/
+
+
+  /*Features*/
+
+  .features-list-subtitle {
+    font-weight: bold;
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+
+  .features-list-text {
+    line-height: 1.71;
+    color: var(--main-text-color);
+  }
+/*The End Features*/
+
+
+/*What we-re are do*/
+
+.what-we-are-do-subtitle {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center; 
+}
+
+/*The End Section*/
+
+/*Our Team*/
+
+.section-team {
+    background-colorbackground: var(--second-page-color);
+}
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  .team-list-item{
+    background-color: var(--main-page-color);
+  }
+
+.team-list-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.team-list-text {
+    font-size: 16px;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+/*End Team Section*/
+
+
+/*Portfolio*/
+
+
 
 /*Footer*/
 
-/*Main*/
+.footer {
+    background-color: var(--accent-page-color);
+}
 
-
-
-/* Стили для партфолио */
+.address {
+    font-style: normal;
+  line-height: 1.71;
+}
