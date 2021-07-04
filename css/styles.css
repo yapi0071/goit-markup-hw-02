@@ -180,7 +180,16 @@ color: var(--logo-color);
     background-color: var(--accent-page-color);
 }
 
-.address {
+.adress {
     font-style: normal;
   line-height: 1.71;
 }
+.adress-link {
+color: var(--main-page-color);
+}
+.mail-link,
+.phone-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*The End Footer*/
