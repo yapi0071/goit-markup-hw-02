@@ -4,4 +4,74 @@
     background-color: #2f303a;
 }
 
+:root{
+
+    --main-page-color: #FFFFFF;
+    --second-page-color: #F5F4FA;
+    --accent-page-color: #2F303A;
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --phone-text-color: rgba(255, 255, 255, 0.6);
+}
+
+:body {
+    background-color: var(--main-page-color);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+/*Header*/
+
+/*Logo*/
+
+.logo{
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo-web {
+    color: var(--second-page-color);
+  }
+
+/*Naviagation*/
+
+.head-nav-list,
+.head-mail-number { 
+    font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.head-nav-link,
+.head-mail-link {
+    color: black;
+}
+.head-nav-link:hover,
+.head-nav-link:focus,
+.head-mail-link:hover,
+.head-mail-link:focus {
+    color: var(--accent-text-color);
+}
+
+.head-phone-link {
+    color: var(--main-text-color);
+}
+/*Hero*/
+
+/*Contacts*/
+
+/*Footer*/
+
+/*Main*/
+
+
+
 /* Стили для партфолио */
