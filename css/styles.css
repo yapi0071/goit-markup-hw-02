@@ -3,14 +3,14 @@
     color: white;
     background-color: #2f303a;
 }
-:root{
+:root {
     --logo-color: white;
-    --main-page-color: #FFFFFF;
-    --second-page-color: #F5F4FA;
-    --accent-page-color: #2F303A;
+    --main-page-color: #ffffff;
+    --second-page-color: #f5f4fa;
+    --accent-page-color: #2f303a;
     --main-text-color: #757575;
     --title-text-color: #212121;
-    --accent-text-color: #2196F3;
+    --accent-text-color: #2196f3;
     --phone-text-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -25,7 +25,7 @@
 
 /*Logo*/
 
-.logo{
+.logo {
     text-decoration: none;
     color: var(--title-text-color);
     font-family: Raleway;
@@ -38,21 +38,21 @@
 
 .logo-span {
     color: var(--accent-text-color);
-  }
+}
 
-  .footer-studio {
-color: var(--logo-color);
-  }
+.footer-studio {
+    color: var(--logo-color);
+}
 
-  /*Logo End*/
+/*Logo End*/
 
 /*Naviagation*/
 
 .head-nav-list,
-.head-mail-number { 
+.head-mail-number {
     font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .head-nav-link,
@@ -74,9 +74,6 @@ color: var(--logo-color);
 
 /*Header End*/
 
-
-
-
 /*Hero*/
 
 /*Main Description*/
@@ -93,9 +90,9 @@ color: var(--logo-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-page-color);
-  }
+}
 
-  .button-link {
+.button-link {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -105,27 +102,25 @@ color: var(--logo-color);
     color: var(--white-color);
     color: var(--main-page-color);
     background-color: var(--accent-text-color);
-  }
+}
 
-  /*The End Hero*/
-  /*The End Main Description*/
+/*The End Hero*/
+/*The End Main Description*/
 
+/*Features*/
 
-  /*Features*/
-
-  .features-list-subtitle {
+.features-list-subtitle {
     font-weight: bold;
     font-size: inherit;
     line-height: 1.14;
     text-transform: uppercase;
-  }
+}
 
-  .features-list-text {
+.features-list-text {
     line-height: 1.71;
     color: var(--main-text-color);
-  }
+}
 /*The End Features*/
-
 
 /*What we-re are do*/
 
@@ -133,7 +128,7 @@ color: var(--logo-color);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center; 
+    text-align: center;
 }
 
 /*The End Section*/
@@ -143,16 +138,16 @@ color: var(--logo-color);
 .section-team {
     background-colorbackground: var(--second-page-color);
 }
-.team-title{
+.team-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-  }
+}
 
-  .team-list-item{
+.team-list-item {
     background-color: var(--main-page-color);
-  }
+}
 
 .team-list-subtitle {
     font-weight: 500;
@@ -168,7 +163,6 @@ color: var(--logo-color);
 
 /*End Team Section*/
 
-
 /*Portfolio*/
 
 .btn-option {
@@ -179,7 +173,6 @@ color: var(--logo-color);
     text-align: center;
     background-color: var(--main-page-color);
     cursor: pointer;
-
 }
 .btn-option:hover,
 .btn-option:focus {
@@ -208,10 +201,10 @@ color: var(--logo-color);
 
 .adress {
     font-style: normal;
-  line-height: 1.71;
+    line-height: 1.71;
 }
 .adress-link {
-color: var(--main-page-color);
+    color: var(--main-page-color);
 }
 .mail-link,
 .phone-link {
